@@ -1,0 +1,32 @@
+FlappyHand/
+├── src/
+│   ├── core/
+│   │   ├── Game.js        (Game logic)
+│   │   ├── Bird.js        (Player character)
+│   │   └── Obstacles.js   (Pipes)
+│   │
+│   ├── controls/
+│   │   └── HandTracking.js (Gesture detection)
+│   │
+│   └── ui/
+       ├── Scene.js        (2D rendering)
+       └── Score.js        (Score display)
+
+
+
+Core Mechanics:
+
+Hand gestures replace tapping
+
+
+Open hand: Bird floats up
+Closed hand: Bird descends
+
+
+Gameplay elements:
+
+
+2D side-scrolling
+Pipe obstacles
+Score counter
+Simple collision detection
